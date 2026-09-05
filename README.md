@@ -1,2 +1,0 @@
-# Landar
-Tech verse
