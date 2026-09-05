@@ -1,0 +1,12 @@
+{
+  "buildCommand": "git clone https://github.com/flutter/flutter.git -b stable --depth 1 _flutter_sdk && export PATH=\"$PATH:`pwd`/_flutter_sdk/bin\" && flutter doctor && flutter pub get && flutter build web --release",
+  "outputDirectory": "build/web",
+  "installCommand": "echo 'Skipping default install — Flutter SDK is cloned in buildCommand'",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
