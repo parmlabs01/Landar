@@ -1,6 +1,6 @@
 class AppConstants {
   static const String appName = 'LANDER';
-  static const String tagline = 'Learn. Connect. Work. Grow.';
+  static const String tagline = 'Tech Verse';
   static const String poweredBy = 'Powered by Parm';
 
   static const List<String> workCategories = [
